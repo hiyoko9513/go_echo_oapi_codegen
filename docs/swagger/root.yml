@@ -11,7 +11,7 @@ info:
     url: https://hiyoko
 servers:
   - description: local
-    url: 'https://lvh.me'
+    url: 'http://lvh.me;8080'
 tags:
   - name: hiyoko1
     description: ひよこ１
