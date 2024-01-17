@@ -1,0 +1,24 @@
+openapi: 3.1.0
+info:
+  title: hiyoko
+  description: |
+    hiyoko api
+  version: 0.0.0
+  termsOfService: https://hiyoko
+  contact:
+    name: Hiyoko API Team
+    email: apiteam@hiyoko
+    url: https://hiyoko
+servers:
+  - description: local
+    url: 'https://lvh.me'
+tags:
+  - name: hiyoko1
+    description: ひよこ１
+  - name: hiyoko2
+    description: ひよこ２
+paths:
+  /v1/pets:
+    $ref: './paths/v1/pets.yml'
+  /v1/pets/{id}:
+    $ref: './paths/v1/petsId.yml'
